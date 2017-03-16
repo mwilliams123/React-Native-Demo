@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ListView, StyleSheet, Text, Image, View, TouchableOpacity} from 'react-native';
-
 import { StackNavigator } from 'react-navigation'
+
 class ListViewTest  extends Component {
   constructor(props) {
     super(props);
@@ -26,8 +26,6 @@ class ListViewTest  extends Component {
         console.log(error)
       });
   }
-
-
 
   render() {
     const { navigate } = this.props.navigation;
